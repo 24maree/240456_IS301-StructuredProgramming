@@ -1,5 +1,12 @@
-/*  Problem:
+/*  Problem: Create a customer's bill for a company selling five specific products
     Algorithm:
+    1. Define constants for the unit prices and the tax rate of 8.35%
+    2. Prompt the user to enter integer quantities for each of the five items
+    3. Calculate the total cost for each individual item (Quantity * Unit Price)
+    4. Sum the item costs to calculate the Subtotal
+    5. Calculate the Tax Amount (Subtotal * Tax Rate)
+    6. Calculate the Final Total (Subtotal + Tax Amount)
+    7. Display the output in a formatted table as specified in the lab requirements.
     Developed by: Mareerose Possi
     Date: 3th of March 2026
 
@@ -66,3 +73,4 @@ printf("\n\t\t\tTotal:\t\t%.2f\n", final_total);
 
 return 0;
 }
+
